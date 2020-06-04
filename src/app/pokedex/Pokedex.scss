@@ -1,0 +1,11 @@
+.List-container {
+  display: grid;
+  overflow-y: auto;
+  margin-top: 350px;
+  height: calc(100vh - 350px);
+  grid-gap: 10px;
+  grid-template: 220px / repeat(auto-fit, max(170px));
+  justify-content: center;
+  justify-items: center;
+  width: 100%;
+}

@@ -1,0 +1,22 @@
+.Sidebar {
+  display: flex;
+  flex-direction: column;
+  
+  &-element {
+    align-items: center;
+    color: black;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    text-decoration: none;
+    width: 200px;
+
+    &-active {
+      background-color: rgba(33, 118, 172, 0.15);;
+    }
+
+    &:hover {
+      background-color: rgba(33, 118, 172, 0.25);
+    }
+  }
+}
